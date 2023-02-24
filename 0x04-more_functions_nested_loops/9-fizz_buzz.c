@@ -18,7 +18,7 @@ int main(void)
 	{
 	printf("FizzBuzz");
 	}
-	else if (x % == 0)
+	else if (x % 3 == 0)
 	{
 	printf("Fizz");
 	}
@@ -35,6 +35,6 @@ int main(void)
 	printf(" ");
 	}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
